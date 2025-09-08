@@ -14,10 +14,10 @@ spec:
   template:
     metadata:
       annotations:
-      k8s.v1.cni.cncf.io/networks: |
-        [{
-          "name": "bridge-net"
-        }]
+        k8s.v1.cni.cncf.io/networks: |
+          [{
+            "name": "bridge-net"
+          }]
       labels:
         app: facebooc
     spec:
