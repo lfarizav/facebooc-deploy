@@ -6,7 +6,7 @@ metadata:
     app: facebooc
   name: facebooc
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: facebooc
